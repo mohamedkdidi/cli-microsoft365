@@ -53,6 +53,32 @@
   <img alt="CLI for Microsoft 365" src="./docs/docs/images/cli-microsoft365.gif" height="500" />
 </p>
 
+
+## Package applications into executable binaries
+
+### Steps and requirements:
+
+1. Install Nodejs 16.13 version
+
+2. Install Python 3.10
+
+3. Install NASM with Admin permissions https://www.nasm.us/pub/nasm/releasebuilds/2.15.04/win64/
+
+4. Install Visual Studio 2019 instances and Visual C++ build tools
+
+5. Insall nexe npm package https://github.com/nexe/nexe
+
+6. Set config
+```
+npm config set msvs_version 2019
+npm config set python c:/Python310
+```
+7. Run this command with Git Bash
+
+```
+nexe . --build --verbose -t windows
+```
+
 ## Features
 
 - Run on any OS
