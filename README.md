@@ -79,6 +79,10 @@ npm config set python c:/Python310
 nexe . --build --verbose -t windows
 ```
 
+### Download the binary package :trophy: <a href="https://github.com/mohamedkdidi/cli-microsoft365/releases/download/v4.3.0/cli-m365-v4.3.0.zip">cli-m365-v4.3.0.zip</a>
+
+<br/>
+
 <img alt="nexe . --build --verbose -t" src="./docs/screenshot1.png" >
 
 
