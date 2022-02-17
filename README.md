@@ -79,6 +79,12 @@ npm config set python c:/Python310
 nexe . --build --verbose -t windows
 ```
 
+<img alt="nexe . --build --verbose -t" src="./docs/screenshot1.png" >
+
+
+<img alt="./cli-ms365.exe -help" src="./docs/screenshot2.png" >
+
+
 ## Features
 
 - Run on any OS
